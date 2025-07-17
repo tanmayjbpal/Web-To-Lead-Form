@@ -6,6 +6,10 @@
     <title>Web To Lead Form</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- Adding From Genarate HTMl Form for reCAPTCHA purpose -->
+     
     <script src="project.js"></script>
 </head>
 <body>
@@ -31,6 +35,9 @@
  <!-- We are commenting the Changes whatever the salesforce has provided because the Lead Date is Custom
   Field and it is not appearing in the form as per our reqirement -->
 <label for="leadDate">Lead Date</label><input type="date" required="true" class="inputdate"/></span><br>
+
+<!-- Adding From Genarate HTMl Form for reCAPTCHA purpose -->
+<div class="g-recaptcha" data-sitekey="6LeeL4YrAAAAAAWze7CzNvijB1JaQOavRJZfQuCr"></div><br>
 
 <input type="submit" name="submit" class="submit">
 
