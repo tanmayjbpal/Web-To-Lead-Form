@@ -1,0 +1,62 @@
+/* First thing that we have to do is to Reset all the inbuilt CSS Setting 
+available in the Form. So, to reset the setting we do in the CSS is 
+set margin=0, padding=0 and box-sizing= border-box as Shown below */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Now I want to bring the Header to Centre of the Page. */
+h1{
+    text-align: center;
+}
+
+/* Now we want that all the Field Label and there input should be in the block form
+that means the field label and input box should be in separate line */
+
+input,label{
+    display: block;
+}
+
+/* Now we want the Field lable in green Color */
+label{
+    color: green;
+}
+
+/* Now we want the input box should take the full width */
+input{
+    width: 100%;
+}
+
+/* Because of the Full Width CSS of input boxes the Submit button 
+is also taking the full width to avoid this  we have to apply separate CSS to the Submit button */
+
+.submit{
+    margin: 15px auto 0px auto;
+    /* setting the width */
+    width: 40%;
+    /* Setting the Background color for the button */
+    background-color: rgb(175, 130, 218);
+    /* To add Curves to the corners of the button */
+    border-radius: 5px;
+}
+
+/* How to apply Margin in CSS
+margin	top   right	 bottom	 left
+margin  25px   50px   75px   100px
+*/
+
+
+/* Now we wanted to implement CSS to the remaining fields available in the form i.e 
+we are applying CSS to the form as per our requirement */
+
+form{
+   min-width: 300px;
+   max-width: 500px;
+   margin: auto;
+   border: 2px solid black;
+   /* To add Spaces from all the sides of border to the labels and input we use Padding  */
+   padding: 15px;
+}
+
